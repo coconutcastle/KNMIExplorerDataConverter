@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>File Converter</title>
+    <script src="MainPage.js"></script>
+    <link rel="icon" href="SunEmojiIcon.png">
+    <style>
+        body{
+            background-color: white;
+            font-family: Bahnschrift;
+            font-size: 20px;
+            padding: 1rem;
+        }
+
+        #pageTitle{
+            font-size: 3rem;
+            padding: 1rem;
+            /*margin: 3rem;*/
+        }
+        #fileContent{
+            font-family: "Courier New";
+            font-size: 1rem;
+        }
+        .text{
+            font-family: Bahnschrift light;
+            font-size: 1.75rem;
+            padding: 1rem;
+            padding-top: 0;
+        }
+        ol.list{
+            font-family: Bahnschrift light;
+            font-size: 1.5rem;
+            padding: 1rem;
+            margin-left: 2rem;
+        }
+        .hide{
+            padding: 0.4rem 0.8rem;
+            background:#277496;
+            position:relative;
+            color: white;
+            border-radius:3px;
+            text-align:center;
+            float:left;
+            font-size: 1.1rem;
+            margin-left: 1.2rem;
+        }
+        #aFile {
+            position: absolute;
+            z-index: 1000;
+            opacity: 0;
+            /*cursor: pointer;*/
+            right: 0;
+            top: 0;
+            height: 100%;
+            font-size: 1.1rem;
+            width: 100%;
+            margin-left: 1.2rem;
+        }
+        #convertFile{
+            background-color: #277496;
+            border: none;
+            color: white;
+            padding: 0.4rem 0.8rem;
+            border-radius:3px;
+            text-align: center;
+            font-size: 1.1rem;
+            font-family: Bahnschrift;
+            margin-left: 1.2rem;
+        }
+        #fileContent{
+            margin-left: 1rem;
+        }
+    </style>
+</head>
+
+<body onload = "init()">
+
+<div id = "pageTitle">Text to CSV File Converter for KNMI Explorer's Station Raw Data</div>
+<ol class="list">
+    <li>Open the raw data link and save as a text file (*.txt extension)</li>
+    <li>Upload here and click <i>convert</i></li>
+</ol>
+<div class = "text">Now you'll be able to open the data in Excel and Google Sheets!</div>
+<br>
+<form id = "uploadFile">
+    <div class = "hide">
+        Choose File
+        <input type="file" name="aFile" id="aFile" accept = ".txt">
+    </div>
+    <br><br>
+    <button type="button" id="convertFile" onClick="convert()">Convert</button>
+    <br><br>
+    <pre id="fileContent"></pre>
+</form>
+
+</body>
+</html>

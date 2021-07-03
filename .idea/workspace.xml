@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bad64ca-dcb8-4cca-8088-cd6624f90461" name="Default Changelist" comment="">
+    <list default="true" id="1bad64ca-dcb8-4cca-8088-cd6624f90461" name="Default Changelist" comment="changed mainpage name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +66,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625315936563</updated>
-      <workItem from="1625315937780" duration="18387000" />
+      <workItem from="1625315937780" duration="19754000" />
     </task>
+    <task id="LOCAL-00001" summary="changed mainpage name">
+      <created>1625334922000</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625334922000</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changed mainpage name" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed mainpage name" />
   </component>
 </project>

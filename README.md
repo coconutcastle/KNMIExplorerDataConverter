@@ -32,4 +32,6 @@ Upload the file with the "Choose File" button, and the file contents will be dis
 
 Rename the file to whatever you want (ideally something useful), and open in Microsoft Excel, upload to Google Sheets, or any other program that opens .csv files! From there, you'll (hopefully) be able to use lots of handy built-in analytical tools. Note: For whatever program you're using to open or import it, make sure that you have "comma" selected as the delimiter. The data may be formated very weirdly otherwise.
 
+If there are any issues or questions, contact me at cecile.dai@mail.mcgill.ca.
+
 Happy data analysis!
